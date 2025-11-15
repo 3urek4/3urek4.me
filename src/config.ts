@@ -1,15 +1,14 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: 'https://3urek4.me',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
-  description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
-  lang: 'en',
-  ogLocale: 'en_US',
-  imageDomains: ['cdn.bsky.app', 'images.unsplash.com'],
+  title: '3urek4',
+  description: 'Just a blog ~',
+  author: '3urek4',
+  lang: 'zh-Hans',
+  ogLocale: 'zh_CN',
+  imageDomains: ['astro.build'],
 }
 
 export const UI: Ui = {
@@ -26,13 +25,13 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'Projects',
     },
-    {
-      path: '/highlights',
-      title: 'Highlights',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Highlights',
-      icon: 'i-ri-screenshot-line',
-    },
+    // {
+    //   path: '/highlights',
+    //   title: 'Highlights',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Highlights',
+    //   icon: 'i-ri-screenshot-line',
+    // },
     {
       path: '/photos',
       title: 'Photos',
@@ -40,13 +39,13 @@ export const UI: Ui = {
       text: 'Photos',
       icon: 'i-ri-camera-ai-line',
     },
-    {
-      path: '/shorts',
-      title: 'Shorts',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Shorts',
-      icon: 'i-meteor-icons-grid',
-    },
+    // {
+    //   path: '/shorts',
+    //   title: 'Shorts',
+    //   displayMode: 'iconToTextOnMobile',
+    //   text: 'Shorts',
+    //   icon: 'i-meteor-icons-grid',
+    // },
     {
       path: '/changelog',
       title: 'Changelog',
@@ -57,23 +56,23 @@ export const UI: Ui = {
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/3urek4',
+      title: '3urek4 on Github',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
-    {
-      link: 'https://x.com/astrodotbuild',
-      title: 'Astro on Twitter',
-      displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
-    },
-    {
-      link: 'https://bsky.app/profile/astro.build',
-      title: 'Astro on Bluesky',
-      displayMode: 'alwaysIcon',
-      icon: 'i-meteor-icons-bluesky',
-    },
+    // {
+    //   link: 'https://x.com/astrodotbuild',
+    //   title: 'Astro on Twitter',
+    //   displayMode: 'alwaysIcon',
+    //   icon: 'i-ri-twitter-x-fill',
+    // },
+    // {
+    //   link: 'https://bsky.app/profile/astro.build',
+    //   title: 'Astro on Bluesky',
+    //   displayMode: 'alwaysIcon',
+    //   icon: 'i-meteor-icons-bluesky',
+    // },
   ],
   navBarLayout: {
     left: [],
@@ -114,9 +113,9 @@ export const UI: Ui = {
     ],
   },
   externalLink: {
-    newTab: false,
-    cursorType: '',
-    showNewTabIcon: false,
+    newTab: true,
+    cursorType: 'url("/images/new-tab.svg") 10 10, pointer',
+    showNewTabIcon: true,
   },
   postMetaStyle: 'minimal',
 }
@@ -148,30 +147,30 @@ export const FEATURES: Features = {
   share: [
     true,
     {
-      twitter: [true, '@ste7lin'],
-      bluesky: [true, '@ste7lin.bsky.social'],
+      twitter: false,
+      bluesky: false,
       mastodon: false,
       facebook: false,
       pinterest: false,
       reddit: false,
       telegram: false,
       whatsapp: false,
-      email: false,
+      email: true,
     },
   ],
   giscus: [
     true,
     {
-      'data-repo': 'lin-stephanie/astro-antfustyle-theme',
-      'data-repo-id': 'R_kgDOLylKbA',
+      'data-repo': '3urek4/3urek4.me',
+      'data-repo-id': 'R_kgDOQVybwA',
       'data-category': 'Giscus',
-      'data-category-id': 'DIC_kwDOLylKbM4Cpugn',
+      'data-category-id': 'DIC_kwDOQVybwM4CxzvY',
       'data-mapping': 'title',
       'data-strict': '0',
       'data-reactions-enabled': '1',
       'data-emit-metadata': '0',
       'data-input-position': 'bottom',
-      'data-lang': 'en',
+      'data-lang': 'zh-CN',
     },
   ],
   search: [

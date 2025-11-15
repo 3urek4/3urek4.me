@@ -1,12 +1,5 @@
 [
   {
-    "id": "astro",
-    "link": "https://github.com/withastro/astro",
-    "desc": "The web framework for content-driven websites",
-    "icon": "i-devicon-astro",
-    "category": "Astro Ecosystem"
-  },
-  {
     "id": "@astrojs/check",
     "link": "https://www.npmjs.com/package/@astrojs/check",
     "desc": "Astro's official check tool",
